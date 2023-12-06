@@ -14,41 +14,14 @@ import Main from '@/components/Main.vue';
 </template>
 
 <style scoped>
-  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
-
-  @font-face {
-    font-family: "Raleway";
-    src: url('../fonts/Raleway-VariableFont_wght.woff');
-    src: url('../fonts/Raleway-Italic-VariableFont_wght.ttf') format('truetype'),
-    url('../fonts/Raleway-VariableFont_wght.ttf') format('opentype');
-  }
-
-  h1{
-    font-family: "Lato", sans-serif;
-  }
-
-  h2{
-    font-family: "Lato", sans-serif;
-  }
-
-  h3{
-    font-family: "Lato", sans-serif;
-    background-color: #dbc2a4;
-    color: black;
-    text-indent: 10px;
-  }
-
-  h4{
-    font-family: "Lato", sans-serif;
-  }
-
-  *{
-    font-family: 'Raleway', sans-serif;
+  html {
+    background-color: #CBE9F6;
   }
 
   body {
     margin-left: auto;
     margin-right: auto;
-    width: 1500px;
+    width: 1000px;
+    background-color: #93BAE7;
   }
 </style>
